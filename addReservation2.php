@@ -42,7 +42,7 @@ echo "<p>Thanks for adding a book, $username!</p>";
 
 $insertInto = "INSERT INTO `schedule?group2`.`Reservations` (`ID`, `Instructor`, `Time`, `Length`, `Room`, `Department`, `Creator`, `Days`, `Name`) VALUES (NULL, '$Instructor', '$Time', '$Length', '$Room', '$Department', '$username', '$Days', '$Name')";
 $insertIntoQuery = mysqli_query($db, $insertInto);
-	include "bookwasadded.php";	}
+	include "reservationwasadded.php";	}
 
 else
 {
