@@ -29,42 +29,42 @@
 
         	<table align="right">
 			<tr>
-				<form method = 'post' action = "bookindex.php">
+				<form method = 'post' action = "calendar.php">
 				<input type = "hidden" name = "day" value = "MWF">
 				<td>&nbsp;</td> <td><input type = 'submit' value = 'MWF'/></td>
 				</form>
 				<td>
-				<form method = 'post' action = "bookindex.php">
+				<form method = 'post' action = "calendar.php">
                                 <input type = "hidden" name = "day" value = "TR">                  
 				<td>&nbsp;</td> <td><input type = 'submit' value = 'TR'/></td>
                                 </form>
 				</td> 
 				<td>
-                                <form method = 'post' action = "bookindex.php">
+                                <form method = 'post' action = "calendar.php">
                                 <input type = "hidden" name = "day" value = "M"> 
 				<td>&nbsp;</td> <td><input type = 'submit' value = 'M'/></td>
                                 </form>
                                 </td>
 				<td>
-				<form method = 'post' action = "bookindex.php">
+				<form method = 'post' action = "calendar.php">
                                 <input type = "hidden" name = "day" value = "T">                                
 				<td>&nbsp;</td> <td><input type = 'submit' value = 'T'/></td>
                                 </form>
                                 </td>
                                 <td>
-                                <form method = 'post' action = "bookindex.php">
+                                <form method = 'post' action = "calendar.php">
                                 <input type = "hidden" name = "day" value = "W">
 				<td>&nbsp;</td> <td><input type = 'submit' value = 'W'/></td>
                                 </form>
                                 </td>
 	                        <td>
-                                <form method = 'post' action = "bookindex.php">
+                                <form method = 'post' action = "calendar.php">
                                 <input type = "hidden" name = "day" value = "R">
                                 <td>&nbsp;</td> <td><input type = 'submit' value = 'R'/></td>
                                 </form>
                                 </td>
                                 <td>
-                                <form method = 'post' action = "bookindex.php">
+                                <form method = 'post' action = "calendar.php">
                                 <input type = "hidden" name = "day" value = "F">
                                 <td>&nbsp;</td> <td><input type = 'submit' value = 'F'/></td>
                                 </form>

@@ -12,16 +12,13 @@ include "header.html"
 </head>
 <body>
 
-
 <center><h1 style="margin-top:0px;">Add</h1></center>
-
-<!--<p>Add a book to be put on the market. </p> -->
 
 <?php
 include "db_connect.php";
 ?>
 
-<form method = "post" action = "addBook2.php">
+<form method = "post" action = "addReservation2.php">
 <table style="margin:20px; margin-top:-20px;">
 	<tr><td><h3>Instructor</h3></td><td><input type="text" id="Instructor" maxlength = "30" name="Instructor" /></td></tr>
 		<tr><td><h3>Class Title</h3></td><td><input type="text" id="Name" maxlength="30" name="Name" /></td></tr>
@@ -50,9 +47,6 @@ include "db_connect.php";
 <option value="MATH">Math</option>
 <option value="EDUC">Education</option>
 <option value="PHIL">Philosophy</option>
-
-
-
 
 </select>
 </td></tr> 
