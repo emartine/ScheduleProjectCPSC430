@@ -260,12 +260,21 @@
 							{
 								$duration = 60;
 							}
+
 							while ($duration >= 100)
 							{
 								$tempDuration = $tempDuration + 60;
 								$duration = $duration - 100;
 							}
-							$duration = $tempDuration + $duration;
+
+							if ($duration >= 60 && $duration <= 99)
+							{
+								$duration = $tempDuration + 30;
+							}
+							else
+							{
+								$duration = $tempDuration + $duration;
+							}
 
 							//How many results are there?
 							$rowCount = mysqli_num_rows($result); 
